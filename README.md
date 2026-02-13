@@ -1,4 +1,4 @@
-# 🚀 Cosmic Portal - Interactive Space Exploration Platform
+# 🚀 Sapce-N -  интерактивная платформа для исследования космоса
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
