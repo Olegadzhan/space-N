@@ -7,40 +7,12 @@
 
 An immersive web application for exploring the cosmos through interactive 3D visualizations, AI-generated music, and stunning space imagery.
 
-## ✨ Features
+## ✨ Возможности
 
-- 🌍 **Interactive 3D Solar System** - Real-time animated planets with accurate orbital mechanics
-- 🎵 **Cosmic Music Player** - Curated ambient space music with real-time visualizer
-- 🎨 **AI Music Generator** - Create unique cosmic soundscapes using AI
-- 📸 **Real Space Gallery** - Browse NASA's breathtaking space photographs
-- 🖼️ **AI Image Generator** - Generate stunning cosmic artwork with AI
-- 🌟 **Responsive Design** - Fully optimized for desktop, tablet, and mobile
-- 🎭 **Modern UI/UX** - Futuristic design with smooth animations and effects
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **Next.js 14** (App Router)
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Utility-first styling
-- **Three.js** - 3D graphics and animations
-- **Howler.js** - Audio playback and visualization
-- **Framer Motion** - Smooth animations
-- **Lucide React** - Modern icon library
-
-### Backend/API
-- **Next.js API Routes** - Serverless functions
-- **NASA API** - Real space imagery
-- **Suno AI / Udio** - AI music generation (optional)
-- **Replicate / DALL-E 3** - AI image generation (optional)
-
-### Deployment
-- **Vercel** - Hosting and CI/CD
-- **GitHub Actions** - Automated deployment
-
-## 📦 Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/cosmic-portal.git
-cd cosmic-portal
+- 🌍 **Интерактивная 3D Солнечная система** - Анимированные планеты в реальном времени с точной орбитальной механикой
+- 🎵 **Космический музыкальный плеер** - Подборка атмосферной космической музыки с визуализатором в реальном времени
+- 🎨 **Генератор музыки на ИИ** - Создавайте уникальные космические звуковые ландшафты с помощью искусственного интеллекта
+- 📸 **Галерея реальных космических снимков** - Просматривайте захватывающие дух фотографии космоса от NASA
+- 🖼️ **Генератор изображений на ИИ** - Создавайте потрясающие космические произведения искусства с помощью ИИ
+- 🌟 **Адаптивный дизайн** - Полностью оптимизирован для компьютеров, планшетов и мобильных устройств
+- 🎭 **Современный интерфейс** - Футуристичный дизайн с плавными анимациями и эффектами
