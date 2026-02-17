@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+package-lock.json  # ← ВРЕМЕННО УДАЛИТЬ ИЗ .gitignore ДЛЯ ДЕПЛОЯ
+
+# Build
+.next/
+out/
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
