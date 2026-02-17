@@ -26,7 +26,12 @@
     "tailwindcss": "^3.4.14",
     "postcss": "^8.4.47",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.14.0",
+    "eslint": "8.57.0",
     "eslint-config-next": "14.2.15"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "packageManager": "npm@10.8.2"
 }
