@@ -36,9 +36,30 @@ export async function GET(request: NextRequest) {
     })
   } catch (error) {
     console.error('NASA API Error:', error)
-    return Response.json(
-      { success: false, error: 'Failed to fetch NASA photos', photos: [] },
-      { status: 500 }
-    )
+    
+    // Возвращаем демо-данные при ошибке
+    return Response.json({ 
+      success: false, 
+      photos: [
+        {
+          id: 'demo1',
+          title: 'Orion Nebula',
+          url: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800',
+          hdurl: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1600',
+          explanation: 'The Orion Nebula is one of the brightest nebulae and is visible to the naked eye.',
+          date: '2024-01-01',
+          media_type: 'image'
+        },
+        {
+          id: 'demo2',
+          title: 'Jupiter and its Moons',
+          url: 'https://images.unsplash.com/photo-1534103253830-9f5937d11a57?w=800',
+          hdurl: 'https://images.unsplash.com/photo-1534103253830-9f5937d11a57?w=1600',
+          explanation: 'Jupiter, the largest planet in our solar system, with its four largest moons.',
+          date: '2024-01-02',
+          media_type: 'image'
+        }
+      ]
+    })
   }
 }
